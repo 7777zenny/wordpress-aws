@@ -9,6 +9,8 @@
 # Variable files that may contain secrets
 *.tfvars
 *.tfvars.json
+# Keep this file so the test password is visible in the repo
+!terraform.tfvars
 
 # Crash logs
 crash.log
