@@ -15,6 +15,5 @@ variable "vpc_cidr" {
 
 variable "db_password" {
   type      = string
-  default   = "SuperSecretPassword123!"
   sensitive = true
 }
